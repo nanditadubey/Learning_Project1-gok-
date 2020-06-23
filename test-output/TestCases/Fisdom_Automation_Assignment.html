@@ -1,0 +1,144 @@
+<html>
+<head>
+<title>TestNG:  Fisdom_Automation_Assignment</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Fisdom_Automation_Assignment</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>13/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Sun May 10 16:09:28 IST 2020</td>
+</tr>
+<tr><td>Total time:</td><td>16 seconds (16778 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.gojek.testcases.ComparatorTest.categoriesTest()'><b>categoriesTest</b><br>Test class: com.zeta.testcases.Common</td>
+<td></td>
+<td>2</td>
+<td>com.gojek.testcases.ComparatorTest@ae45eb6</td></tr>
+<tr>
+<td title='com.gojek.testcases.ComparatorTest.citiesTest()'><b>citiesTest</b><br>Test class: com.zeta.testcases.Common</td>
+<td></td>
+<td>0</td>
+<td>com.gojek.testcases.ComparatorTest@ae45eb6</td></tr>
+<tr>
+<td title='com.gojek.testcases.ComparatorTest.collectionTest()'><b>collectionTest</b><br>Test class: com.zeta.testcases.Common</td>
+<td></td>
+<td>0</td>
+<td>com.gojek.testcases.ComparatorTest@ae45eb6</td></tr>
+<tr>
+<td title='com.gojek.testcases.ComparatorTest.cuisinesTest()'><b>cuisinesTest</b><br>Test class: com.zeta.testcases.Common</td>
+<td></td>
+<td>0</td>
+<td>com.gojek.testcases.ComparatorTest@ae45eb6</td></tr>
+<tr>
+<td title='com.gojek.testcases.ComparatorTest.establishmentsTest()'><b>establishmentsTest</b><br>Test class: com.zeta.testcases.Common</td>
+<td></td>
+<td>1</td>
+<td>com.gojek.testcases.ComparatorTest@ae45eb6</td></tr>
+<tr>
+<td title='com.gojek.testcases.ComparatorTest.geocodeTest()'><b>geocodeTest</b><br>Test class: com.zeta.testcases.Common</td>
+<td></td>
+<td>1</td>
+<td>com.gojek.testcases.ComparatorTest@ae45eb6</td></tr>
+<tr>
+<td title='com.gojek.testcases.Location.locationTest()'><b>locationTest</b><br>Test class: com.zeta.testcases.Location</td>
+<td></td>
+<td>1</td>
+<td>com.gojek.testcases.Location@59f99ea</td></tr>
+<tr>
+<td title='com.gojek.testcases.Restaurant.searchTest1()'><b>searchTest1</b><br>Test class: com.zeta.testcases.Restaurant<br>Test method: Validation to find number of restaurants in particular area depening on subzone and coordinates and token validation</td>
+<td></td>
+<td>1</td>
+<td>com.gojek.testcases.Restaurant@27efef64</td></tr>
+<tr>
+<td title='com.gojek.testcases.Restaurant.searchTest2()'><b>searchTest2</b><br>Test class: com.zeta.testcases.Restaurant<br>Test method: Validate that only that particluar city restuarants listing in response on passing subzone and coordinates in request</td>
+<td></td>
+<td>1</td>
+<td>com.gojek.testcases.Restaurant@27efef64</td></tr>
+<tr>
+<td title='com.gojek.testcases.Restaurant.searchTest3()'><b>searchTest3</b><br>Test class: com.zeta.testcases.Restaurant<br>Test method: Validate if country wise currency is listing under restuarants,if country India currency for all restuarnts Rs.</td>
+<td></td>
+<td>0</td>
+<td>com.gojek.testcases.Restaurant@27efef64</td></tr>
+<tr>
+<td title='com.gojek.testcases.Restaurant.searchTest4()'><b>searchTest4</b><br>Test class: com.zeta.testcases.Restaurant<br>Test method: Validate establishment filter is working or not,whatever establishment id passed in request should get only that type of restuarants</td>
+<td></td>
+<td>1</td>
+<td>com.gojek.testcases.Restaurant@27efef64</td></tr>
+<tr>
+<td title='com.gojek.testcases.Restaurant.searchTest5()'><b>searchTest5</b><br>Test class: com.zeta.testcases.Restaurant<br>Test method: Validate if in search box some wrong spelled word is passed like bakry should get the resturants list of Bakery establishment only without using establishment filter</td>
+<td></td>
+<td>0</td>
+<td>com.gojek.testcases.Restaurant@27efef64</td></tr>
+<tr>
+<td title='com.gojek.testcases.Restaurant.searchTest6()'><b>searchTest6</b><br>Test class: com.zeta.testcases.Restaurant<br>Test method: Validation to check all restaurants have average_cost_for_two, cuisines and user_rating not null</td>
+<td></td>
+<td>0</td>
+<td>com.gojek.testcases.Restaurant@27efef64</td></tr>
+</table><p>
+</body>
+</html>

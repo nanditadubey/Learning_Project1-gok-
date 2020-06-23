@@ -1,0 +1,18 @@
+<suite name="TestCases" verbose="1">
+    <test name="Gojek_Automation_Assignment">
+        <classes>
+            <class name="com.gojek.testcases.ComparatorTest">
+                <methods>
+                    <include name="objectandNumericTest"/>
+                    <include name="objectandTextTest"/>
+
+                </methods>
+            </class>
+
+
+
+
+
+        </classes>
+    </test>
+</suite>
