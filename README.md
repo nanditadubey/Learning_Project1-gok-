@@ -23,7 +23,16 @@ https://reqres.in/api/users?page=1 equals https://reqres.in/api/users?page=1
 
 
 6)softwares and technolog used
-java 8,TestNg,maven build,Restassured
+java 8,TestNg,maven build,Restassured,maven
+
+7)Steps to run the application
+i)download the project.
+ii)extract it in any location
+iii)open cmd
+iv)go to project location 
+v)run mvn clean install
+vi) it will run the test cases.
+
 
 
 
