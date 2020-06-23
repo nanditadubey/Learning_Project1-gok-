@@ -26,3 +26,5 @@ https://reqres.in/api/users?page=1 equals https://reqres.in/api/users?page=1
 java 8,TestNg,maven build,Restassured
 
 
+
+
